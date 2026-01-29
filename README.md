@@ -72,7 +72,7 @@ Hip Implant AI is a comprehensive, production-ready system designed to assist or
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/hip-implant-ai.git
+git clone https://github.com/tamilmetaverse/hip-implant-ai.git
 cd hip-implant-ai
 
 # Set up environment
@@ -508,7 +508,7 @@ We welcome contributions! Here's how you can help:
 
 ### Reporting Issues
 
-Found a bug or have a feature request? Please [open an issue](https://github.com/YOUR_USERNAME/hip-implant-ai/issues) with:
+Found a bug or have a feature request? Please [open an issue](https://github.com/tamilmetaverse/hip-implant-ai/issues) with:
 - Clear description of the problem
 - Steps to reproduce (for bugs)
 - Expected vs actual behavior
@@ -547,8 +547,8 @@ This project builds upon excellent open-source work:
 Need help or have questions?
 
 - 📖 **Documentation**: Check [QUICKSTART.md](QUICKSTART.md) and [PROJECT_SUMMARY.md](PROJECT_SUMMARY.md)
-- 🐛 **Bug Reports**: [Open an issue](https://github.com/YOUR_USERNAME/hip-implant-ai/issues)
-- 💡 **Feature Requests**: [Start a discussion](https://github.com/YOUR_USERNAME/hip-implant-ai/discussions)
+- 🐛 **Bug Reports**: [Open an issue](https://github.com/tamilmetaverse/hip-implant-ai/issues)
+- 💡 **Feature Requests**: [Start a discussion](https://github.com/tamilmetaverse/hip-implant-ai/discussions)
 - 📧 **Email**: contact@example.com
 
 ## 🗺️ Roadmap
@@ -572,6 +572,6 @@ Need help or have questions?
 
 Made by researchers, for researchers and clinicians.
 
-[Report Bug](https://github.com/YOUR_USERNAME/hip-implant-ai/issues) · [Request Feature](https://github.com/YOUR_USERNAME/hip-implant-ai/issues) · [Documentation](QUICKSTART.md)
+[Report Bug](https://github.com/tamilmetaverse/hip-implant-ai/issues) · [Request Feature](https://github.com/tamilmetaverse/hip-implant-ai/issues) · [Documentation](QUICKSTART.md)
 
 </div>
