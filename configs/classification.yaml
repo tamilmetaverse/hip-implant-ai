@@ -1,0 +1,61 @@
+# Classification Configuration
+model:
+  name: "swin"  # Options: swin, convnext
+  variant: "swin_base_patch4_window7_224"  # timm model name
+  num_classes: 50  # Adjust based on number of implant types
+  pretrained: true
+  dropout: 0.3
+
+data:
+  image_size: [224, 224]
+  train_dir: "data/processed/train"
+  val_dir: "data/processed/val"
+  batch_size: 32
+  num_workers: 4
+  use_masked_images: true  # Use mask-guided images
+
+augmentation:
+  rotation_range: 20
+  scale_range: [0.85, 1.15]
+  horizontal_flip: true
+  vertical_flip: false
+  brightness: 0.3
+  contrast: 0.3
+  random_erasing: true
+  mixup_alpha: 0.2
+  cutmix_alpha: 1.0
+
+training:
+  epochs: 150
+  optimizer: "adamw"
+  learning_rate: 1e-4
+  weight_decay: 1e-4
+  scheduler: "cosine"
+  warmup_epochs: 10
+  label_smoothing: 0.1
+  gradient_clip: 1.0
+  early_stopping_patience: 20
+
+ensemble:
+  models: ["swin", "convnext"]
+  weights: [0.5, 0.5]  # Weighted averaging
+  strategy: "soft_voting"  # Options: soft_voting, hard_voting
+
+uncertainty:
+  confidence_threshold: 0.7
+  variance_threshold: 0.1
+
+checkpoint:
+  save_dir: "checkpoints/classification"
+  save_best_only: true
+  monitor: "val_acc"
+  mode: "max"
+
+reproducibility:
+  seed: 42
+  deterministic: true
+  benchmark: false
+
+clinical:
+  task: "revision"  # Options: revision (identification), primary (selection)
+  num_recommendations: 5  # For primary arthroplasty
