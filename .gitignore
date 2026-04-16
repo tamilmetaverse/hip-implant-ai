@@ -38,6 +38,8 @@ ENV/
 data/raw/*
 data/processed/*
 data/masks/*
+data/*.zip
+data/Hip*
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 !data/masks/.gitkeep
@@ -46,6 +48,7 @@ data/masks/*
 checkpoints/
 logs/
 runs/
+experiments/
 *.pth
 *.pt
 *.ckpt
@@ -65,6 +68,10 @@ outputs/
 # OS
 .DS_Store
 Thumbs.db
+nul
+
+# Claude Code local settings
+.claude/
 
 # Tensorboard
 events.out.tfevents.*

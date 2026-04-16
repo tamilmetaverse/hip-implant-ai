@@ -1,0 +1,231 @@
+{
+  "test_accuracy": 62.16216216216216,
+  "test_top5_accuracy": 97.29729729729729,
+  "num_classes": 11,
+  "class_names": [
+    "Aesculp Bicontact",
+    "Biomet - Echo Bimetric",
+    "Biomet - Taperloc",
+    "Biomet-Arcos",
+    "Depuy Charnley",
+    "Depuy SROM",
+    "Depuy Trilock",
+    "Depuy corail",
+    "Smith and Nephew POLAR CUP",
+    "Stryker Accolade II",
+    "Stryker Exeter"
+  ],
+  "per_class_metrics": {
+    "Aesculp Bicontact": {
+      "precision": 0.8333333333333334,
+      "recall": 1.0,
+      "f1_score": 0.9090909090909091,
+      "support": 10
+    },
+    "Biomet - Echo Bimetric": {
+      "precision": 0.5128205128205128,
+      "recall": 0.7142857142857143,
+      "f1_score": 0.5970149253731343,
+      "support": 56
+    },
+    "Biomet - Taperloc": {
+      "precision": 0.22727272727272727,
+      "recall": 0.45454545454545453,
+      "f1_score": 0.30303030303030304,
+      "support": 22
+    },
+    "Biomet-Arcos": {
+      "precision": 0.4444444444444444,
+      "recall": 0.4444444444444444,
+      "f1_score": 0.4444444444444444,
+      "support": 18
+    },
+    "Depuy Charnley": {
+      "precision": 0.8333333333333334,
+      "recall": 0.5555555555555556,
+      "f1_score": 0.6666666666666666,
+      "support": 18
+    },
+    "Depuy SROM": {
+      "precision": 0.9285714285714286,
+      "recall": 1.0,
+      "f1_score": 0.9629629629629629,
+      "support": 26
+    },
+    "Depuy Trilock": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 12
+    },
+    "Depuy corail": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 20
+    },
+    "Smith and Nephew POLAR CUP": {
+      "precision": 0.4444444444444444,
+      "recall": 0.19047619047619047,
+      "f1_score": 0.26666666666666666,
+      "support": 42
+    },
+    "Stryker Accolade II": {
+      "precision": 0.8461538461538461,
+      "recall": 0.4230769230769231,
+      "f1_score": 0.5641025641025641,
+      "support": 52
+    },
+    "Stryker Exeter": {
+      "precision": 0.6428571428571429,
+      "recall": 0.9,
+      "f1_score": 0.75,
+      "support": 20
+    }
+  },
+  "confusion_matrix": [
+    [
+      10,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      40,
+      8,
+      6,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      2,
+      10,
+      10,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      2,
+      8,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4
+    ],
+    [
+      0,
+      0,
+      0,
+      2,
+      10,
+      0,
+      0,
+      0,
+      0,
+      0,
+      6
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      26,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      12,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      20,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      14,
+      18,
+      0,
+      0,
+      0,
+      0,
+      0,
+      8,
+      2,
+      0
+    ],
+    [
+      0,
+      12,
+      6,
+      0,
+      0,
+      2,
+      0,
+      0,
+      10,
+      22,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      18
+    ]
+  ]
+}

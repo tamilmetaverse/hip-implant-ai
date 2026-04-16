@@ -1,0 +1,77 @@
+======================================================================
+HIP IMPLANT AI - TEST SET EVALUATION
+======================================================================
+
+Test Accuracy (Top-1): 62.16%
+Test Accuracy (Top-5): 97.30%
+
+----------------------------------------------------------------------
+PER-CLASS RESULTS
+----------------------------------------------------------------------
+
+Aesculp Bicontact:
+  Precision: 83.33%
+  Recall:    100.00%
+  F1-Score:  90.91%
+  Support:   10.0 samples
+
+Biomet - Echo Bimetric:
+  Precision: 51.28%
+  Recall:    71.43%
+  F1-Score:  59.70%
+  Support:   56.0 samples
+
+Biomet - Taperloc:
+  Precision: 22.73%
+  Recall:    45.45%
+  F1-Score:  30.30%
+  Support:   22.0 samples
+
+Biomet-Arcos:
+  Precision: 44.44%
+  Recall:    44.44%
+  F1-Score:  44.44%
+  Support:   18.0 samples
+
+Depuy Charnley:
+  Precision: 83.33%
+  Recall:    55.56%
+  F1-Score:  66.67%
+  Support:   18.0 samples
+
+Depuy SROM:
+  Precision: 92.86%
+  Recall:    100.00%
+  F1-Score:  96.30%
+  Support:   26.0 samples
+
+Depuy Trilock:
+  Precision: 100.00%
+  Recall:    100.00%
+  F1-Score:  100.00%
+  Support:   12.0 samples
+
+Depuy corail:
+  Precision: 100.00%
+  Recall:    100.00%
+  F1-Score:  100.00%
+  Support:   20.0 samples
+
+Smith and Nephew POLAR CUP:
+  Precision: 44.44%
+  Recall:    19.05%
+  F1-Score:  26.67%
+  Support:   42.0 samples
+
+Stryker Accolade II:
+  Precision: 84.62%
+  Recall:    42.31%
+  F1-Score:  56.41%
+  Support:   52.0 samples
+
+Stryker Exeter:
+  Precision: 64.29%
+  Recall:    90.00%
+  F1-Score:  75.00%
+  Support:   20.0 samples
+
